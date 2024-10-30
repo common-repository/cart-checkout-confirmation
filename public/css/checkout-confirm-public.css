@@ -1,0 +1,150 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.confirm-button-groups {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.confirm-button-groups .button-left,
+.confirm-button-groups .button-right {
+    width: 25%;
+}
+
+.confirm-button-groups .center-button {
+    width: 50%;
+    text-align: center;
+}
+
+.confirm-button-groups .button-back {
+    padding: calc(0.4180469716em - 1px) calc(1.41575em - 1px);
+    border: 1px solid #999999;
+    color: #333;
+    text-decoration: none !important;
+    display: inline-block;
+    border-radius: 3px;
+    transition: all 0.3s;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.confirm-button-groups .button-back:hover {
+    background-color: #f1f1f1;
+}
+
+.button-place_order {
+    min-width: 250px;
+    padding: calc(0.4180469716em - 1px) calc(1.41575em - 1px);
+    font-size: 18px;
+    height: 100%;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.confirm-overlay {
+    position: fixed !important;
+    display: none;
+    z-index: 1000;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    opacity: 0.6;
+    cursor: default;
+}
+
+.confirm-overlay:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    line-height: inherit;
+    vertical-align: baseline;
+    content: "";
+    animation: fa-spin .75s linear infinite;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.processing .confirm-overlay {
+    display: block;
+}
+
+.swal2-actions {
+    flex-direction: row-reverse;
+}
+
+.additional-display {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.additional-display .additional-content {
+   text-align: left;
+   background-color: #fdfdfd;
+   padding: 1em 1.41575em;
+   line-height: 1.7;
+}
+
+@media only screen and (max-width: 500px) {
+    .confirm-button-groups {
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .checkout-confirm-wrap table td, .checkout-confirm-wrap table th {
+        padding: 1em 0.4em;
+    }
+
+    .button-place_order {
+        min-width: 230px;
+        width: 230px !important;
+        margin-bottom: 15px;
+    }
+
+    .hentry .entry-content a {
+        text-decoration: underline;
+        min-width: 230px;
+        width: 230px;
+        text-align: center;
+    }
+
+    .confirm-button-groups .center-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-place_order, .button-back { 
+        padding: calc(0.4180469716em - 1px) calc(0.61575em - 1px);
+    }
+
+    .confirm-button-groups .button-left, 
+    .confirm-button-groups .button-right {
+        width: 100%;
+        text-align: center;
+    }
+}

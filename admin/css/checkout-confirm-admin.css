@@ -1,0 +1,356 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.drag-main {
+    width: 70%;
+}
+
+.drag-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.drag-row .drag-left {
+    flex-basis: 30%;
+}
+
+.drag-row .drag-right {
+    flex-basis: 70%;
+}
+
+.drag-row .drag-left .group-fields h3:first-letter {
+    text-transform: uppercase;
+}
+
+.drag-row .drag-left .group-fields .field-item {
+    padding: 5px 10px;
+    background: #ccc;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+.drag-row .drag-left .group-fields .field-item:hover {
+    background: #2271b1;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.drag-group {
+    padding-left: 30px;
+}
+
+.drag-group .field-custom {
+  margin: 1em 0;
+}
+
+.group-list {
+    border: 1px #ababab dashed;
+    background: #e7e7e7;
+    padding: 10px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.group-list .field-item {
+    width: auto !important;
+    padding: 5px 10px;
+    border: 2px #ccc solid;
+    margin-bottom: 6px;
+    background: #ccc;
+}
+
+.group-list.ui-sortable .field-item {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.group-list.ui-sortable .field-item button {
+    cursor: pointer;
+    border: 1px #444 solid;
+    border-radius: 2px;
+}
+
+.group-list.ui-sortable .field-item button span {
+    font-size: 17px;
+    color: #444;
+}
+
+.version-Free .group-fields {
+    position: relative;
+}
+
+.version-Free .group-fields:after,
+.version-Free .group-list:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    cursor: not-allowed;
+    z-index: 1;
+}
+
+.dp-table{
+    display: flex;
+    text-align: start;
+}
+.show-bgcolor {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: block;
+    margin-right: 12px;
+    background: red;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 25px;
+}
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.wp-color-result-text {
+    font-size: 13px;
+    padding: 0 20px;
+}
+
+input[name="option[checkout_button]"], 
+input[name="option[confirm_button]"] {
+    height: 35px;
+    width: 300px;
+} 
+
+#switch-text-fields {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.container-main-tags {
+    margin-top: 13px;
+    width: 100%;
+    height: auto;
+}
+
+.drag-main .free-text {
+    display: none;
+}
+
+.drag-main .free-text--active { 
+    display: block;
+}
+
+.c3-input-group {
+    margin-bottom: 30px;
+}
+
+.c3-input-group label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.c3-input-group input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.c3-input-group textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.c3-input-group__button-add {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.c3-textarea-add {
+    margin-bottom: 60px;
+    position: relative;
+    transition: 0.3s;
+    border: 1px #ababab dashed;
+    background: #e7e7e7;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1024px;
+}
+
+.c3-btn-add__fields {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-field__textarea,
+.add-field__textarea--disabled {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0.8;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.add-field__textarea:hover {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.c3-textarea-add .remove {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 10px;
+}
+
+.c3-textarea-add .remove span {
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.c3-textarea-add .remove span:hover {
+    background-color: #d63638;
+    border-color: #d63638;
+    transition: 0.3s;
+}
+
+.c3-textarea-add .remove span::before {
+    content: '';
+    width: 10px;
+    position: absolute;
+    transform: translate(50%, 10px);
+    height: 1px;
+    background-color: #111111;
+}
+
+.c3-textarea-add .remove span:hover::before {
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 1300px) {
+    .c3-input-group textarea,
+    .c3-input-group input {
+        width: 100%;
+    }
+
+    .add-field__textarea,
+    .add-field__textarea--disabled, 
+    .c3-textarea-add .remove {
+        right: -40px;
+    }
+}
+
+.c3-input-group .wp-editor-wrap {
+    width: 100%;
+}
+
+#wp-desired_id_of_textarea-wrap .textarea-wrap__layer {
+    width: 100%;
+    height: 380px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .drag-main {
+        width: 95%;
+    }
+
+    .c3-textarea-add .remove {
+        right: -27px;
+    }
+}
+
+@media screen and (min-width: 782px) {
+    .c3-input-group .wp-core-ui .quicktags-toolbar input.button.button-small {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .c3-input-group .wp-editor-wrap {
+        width: 100%;
+    }
+}

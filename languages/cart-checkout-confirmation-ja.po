@@ -1,0 +1,445 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout Confirm\n"
+"POT-Creation-Date: 2023-03-08 18:25+0900\n"
+"PO-Revision-Date: 2023-03-08 18:29+0900\n"
+"Last-Translator: shun <shun.soccer.shun@gmail.com>\n"
+"Language-Team: ADNShop\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;esc_attr__;__e;_x;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: public\n"
+"X-Poedit-SearchPath-3: .\n"
+"X-Poedit-SearchPath-4: .\n"
+"X-Poedit-SearchPathExcluded-0: public/js/sweetalert2.all.min.js\n"
+
+#: admin/class-checkout-confirm-admin.php:123 admin/views/configure.php:26
+#: admin/views/pro_version.php:3
+#: includes/class-checkout-confirm-activator.php:43
+msgid "Cart Checkout Confirmation"
+msgstr "Cart Checkout Confirmation"
+
+#: admin/class-checkout-confirm-admin.php:132
+#: admin/class-checkout-confirm-admin.php:133
+msgid "Edit"
+msgstr "編集"
+
+#: admin/class-checkout-confirm-admin.php:141
+#: admin/class-checkout-confirm-admin.php:142
+msgid "Install Paid Version"
+msgstr "有料版をダウンロード"
+
+#: admin/class-checkout-confirm-admin.php:289
+msgid "Paid Version"
+msgstr "有料版"
+
+#: admin/class-checkout-confirm-admin.php:289
+msgid "Paid version"
+msgstr "有料版をダウンロード"
+
+#: admin/class-checkout-confirm-admin.php:301
+#: admin/class-checkout-confirm-admin.php:312
+msgid "Settings"
+msgstr "設定"
+
+#: admin/class-checkout-confirm-admin.php:328
+msgid "Basic Help"
+msgstr "基本的なヘルプ"
+
+#: admin/class-checkout-confirm-admin.php:335
+msgid "Found a bug?"
+msgstr "バグが発見された場合?"
+
+#: admin/views/alert.php:2 admin/views/pro_version.php:7
+msgid "Features below will be enabled when downloading the paid version."
+msgstr "有料版では下記機能が実装されます。"
+
+#: admin/views/alert.php:4
+msgid "・making a redirect confimation page"
+msgstr "・リダイレクトページの作成"
+
+#: admin/views/alert.php:7 admin/views/pro_version.php:12
+msgid ""
+"「Cart Checkout Confirmation」paid version can be downloaded from the "
+"website below."
+msgstr "下記サイトにて「Cart Checkout Confirmation」の有料販売をしております。"
+
+#: admin/views/alert.php:10 admin/views/pro_version.php:15
+msgid "Download the Paid Version"
+msgstr "有料版をダウンロードする"
+
+#: admin/views/configure.php:6
+msgid "Display Fields"
+msgstr "購入者情報"
+
+#: admin/views/configure.php:7
+msgid "Options"
+msgstr "設定"
+
+#: admin/views/configure.php:8
+msgid "Additional Display"
+msgstr "追加表示"
+
+#: admin/views/configure.php:28
+msgid "Cart Checkout Confirmation Pro"
+msgstr "Cart Checkout Confirmation Pro"
+
+#: admin/views/pro_version.php:5
+msgid "Buy Pro Version"
+msgstr "プロバージョン版購入"
+
+#: admin/views/pro_version.php:9
+msgid "・making a redirect confirmation page"
+msgstr "・リダイレクトページの作成"
+
+#: admin/views/tabs/additional-display.php:37
+#: admin/views/tabs/additional-display.php:67
+#: admin/views/tabs/additional-display.php:105
+msgid "Title"
+msgstr "題名"
+
+#: admin/views/tabs/additional-display.php:41
+#: admin/views/tabs/additional-display.php:71
+#: admin/views/tabs/additional-display.php:106
+msgid "Content"
+msgstr "コンテンツ"
+
+#: admin/views/tabs/additional-display.php:107
+msgid "Do you want to clear the text area field ?"
+msgstr "テキストエリアフィールを削除する?"
+
+#: admin/views/tabs/additional-display.php:108
+msgid "Do you want to add a textarea field?"
+msgstr "テキストエリアフィールを追加する?"
+
+#: admin/views/tabs/additional-display.php:111 admin/views/tabs/fields.php:67
+#: admin/views/tabs/option.php:105
+msgid "Save"
+msgstr "変更を保存"
+
+#: admin/views/tabs/fields.php:19 admin/views/tabs/fields.php:20
+#: includes/class-checkout-confirm.php:250
+#: includes/class-checkout-confirm.php:251
+#: includes/class-checkout-confirm.php:252
+#: includes/class-checkout-confirm.php:253
+#: includes/class-checkout-confirm.php:254
+msgid "Billing"
+msgstr "請求処理"
+
+#: admin/views/tabs/fields.php:23 admin/views/tabs/fields.php:24
+msgid "Shipping"
+msgstr "配送"
+
+#: admin/views/tabs/fields.php:27 admin/views/tabs/fields.php:28
+#: admin/views/tabs/option.php:5 public/class-checkout-confirm-public.php:132
+#: public/partials/checkout-confirm-public-display.php:16
+msgid "Order"
+msgstr "注文"
+
+#: admin/views/tabs/fields.php:51
+msgid "Hide the text \"Billing\""
+msgstr "「請求処理」を表示/非表示"
+
+#: admin/views/tabs/fields.php:53
+msgid "Display fields"
+msgstr "表示フィールド"
+
+#: admin/views/tabs/option.php:4
+msgid "Place order"
+msgstr "注文する"
+
+#: admin/views/tabs/option.php:20
+msgid "Display Option"
+msgstr "ディスプレイオプション"
+
+#: admin/views/tabs/option.php:22
+msgid ""
+"Various settings can be changed by downloading the Pro version plugin (paid)."
+msgstr ""
+"各種設定は、Pro版（有料）プラグインをダウンロードすることにより変更が可能とな"
+"ります。"
+
+#: admin/views/tabs/option.php:35
+msgid "Type"
+msgstr "表示方法"
+
+#: admin/views/tabs/option.php:39
+msgid "Popup"
+msgstr "ポップアップ"
+
+#: admin/views/tabs/option.php:41
+msgid "Redirect to Confirm Page"
+msgstr "確認ページへリダイレクト"
+
+#: admin/views/tabs/option.php:46
+msgid "Checkout Button"
+msgstr "チェックアウトボタン"
+
+#: admin/views/tabs/option.php:51 admin/views/tabs/option.php:80
+msgid "Change Text"
+msgstr "テキストを変更"
+
+#: admin/views/tabs/option.php:59 admin/views/tabs/option.php:88
+msgid "Change Text Color"
+msgstr "テキスト色を変更"
+
+#: admin/views/tabs/option.php:67 admin/views/tabs/option.php:96
+msgid "Change Background Color"
+msgstr "背景色を変更"
+
+#: admin/views/tabs/option.php:75
+msgid "Order Button"
+msgstr "注文ボタン"
+
+#: cart-checkout-confirmation.php:96 cart-checkout-confirmation.php:121
+msgid "First Name"
+msgstr "名"
+
+#: cart-checkout-confirmation.php:97 cart-checkout-confirmation.php:122
+msgid "Last Name"
+msgstr "姓"
+
+#: cart-checkout-confirmation.php:98 cart-checkout-confirmation.php:123
+msgid "Company Name"
+msgstr "会社名"
+
+#: cart-checkout-confirmation.php:99 cart-checkout-confirmation.php:124
+msgid "Street Address"
+msgstr "番地"
+
+#: cart-checkout-confirmation.php:100 cart-checkout-confirmation.php:128
+msgid "Country / Region"
+msgstr "国または地域"
+
+#: cart-checkout-confirmation.php:101 cart-checkout-confirmation.php:125
+msgid "Apartment, Suite, Unit, etc"
+msgstr "アパート名、棟名、部屋番号など"
+
+#: cart-checkout-confirmation.php:102 cart-checkout-confirmation.php:126
+msgid "Town / City"
+msgstr "市区町村"
+
+#: cart-checkout-confirmation.php:103 cart-checkout-confirmation.php:127
+msgid "Postcode / ZIP"
+msgstr "郵便番号"
+
+#: cart-checkout-confirmation.php:104 cart-checkout-confirmation.php:129
+msgid "Prefecture"
+msgstr "都道府県"
+
+#: cart-checkout-confirmation.php:105
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: cart-checkout-confirmation.php:106
+msgid "Phone"
+msgstr "電話番号"
+
+#: cart-checkout-confirmation.php:141
+msgid "Order Notes"
+msgstr "注文メモ"
+
+#: includes/class-checkout-confirm-i18n.php:52
+msgid "First name"
+msgstr "名"
+
+#: includes/class-checkout-confirm-i18n.php:55
+msgid "Last name"
+msgstr "姓"
+
+#: includes/class-checkout-confirm-i18n.php:58
+msgid "Company name"
+msgstr "会社名"
+
+#: includes/class-checkout-confirm-i18n.php:61
+msgid "Country/Region"
+msgstr "国/地域"
+
+#: includes/class-checkout-confirm-i18n.php:64
+msgid "Street address"
+msgstr "番地"
+
+#: includes/class-checkout-confirm-i18n.php:67
+msgid "Apartment, suite, unit, etc"
+msgstr "アパート名、棟名、部屋番号など"
+
+#: includes/class-checkout-confirm-i18n.php:70
+msgid "Suburb"
+msgstr "郊外"
+
+#: includes/class-checkout-confirm-i18n.php:73
+msgid "State"
+msgstr "都道府県-"
+
+#: includes/class-checkout-confirm-i18n.php:76
+msgid "Postcode"
+msgstr "郵便番号-"
+
+#: includes/class-checkout-confirm-i18n.php:79
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: public/class-checkout-confirm-public.php:133
+#: public/partials/checkout-confirm-public-display.php:137
+msgid "Back"
+msgstr "戻る"
+
+#: public/class-checkout-confirm-public.php:134
+msgid "Confirm order"
+msgstr "確認"
+
+#: public/partials/checkout-confirm-public-display.php:39
+msgid "Customer information"
+msgstr "購入者情報"
+
+#: public/partials/checkout-confirm-public-display.php:99
+msgid "Cart information"
+msgstr "カート情報"
+
+#: public/partials/checkout-confirm-public-display.php:103
+msgid "Product"
+msgstr "商品"
+
+#: public/partials/checkout-confirm-public-display.php:104
+msgid "Price"
+msgstr "価格"
+
+#: public/partials/checkout-confirm-public-display.php:105
+msgid "Quantity"
+msgstr "数量"
+
+#: public/partials/checkout-confirm-public-display.php:106
+#: public/partials/checkout-confirm-public-display.php:123
+msgid "Subtotal"
+msgstr "小計"
+
+#: public/partials/checkout-confirm-public-display.php:119
+msgid "Delivery"
+msgstr "配送"
+
+#: public/partials/checkout-confirm-public-display.php:129
+msgid "Discount"
+msgstr "割引"
+
+#~ msgid "Company"
+#~ msgstr "会社名"
+
+#~ msgid "Country"
+#~ msgstr "国または地域"
+
+#~ msgid "City"
+#~ msgstr "市区町村"
+
+#~ msgid "Your State"
+#~ msgstr "都道府県"
+
+#~ msgid "Your Postcode"
+#~ msgstr "郵便番号"
+
+#, fuzzy
+#~| msgid "Your Postcode"
+#~ msgid "your Postcode"
+#~ msgstr "郵便番号"
+
+#~ msgid "Your First Name"
+#~ msgstr "名"
+
+#~ msgid "Your Last Name"
+#~ msgstr "姓"
+
+#~ msgid "Your Company"
+#~ msgstr "会社名"
+
+#~ msgid "Your Country"
+#~ msgstr "国または地域"
+
+#~ msgid "Your Email"
+#~ msgstr "メールアドレス"
+
+#~ msgid "Your Company Name"
+#~ msgstr "会社名"
+
+#~ msgid "Your state"
+#~ msgstr "市町区村"
+
+#~ msgid "Your shipping first name"
+#~ msgstr "性"
+
+#~ msgid "Your shipping last name"
+#~ msgstr "名"
+
+#~ msgid "postcode"
+#~ msgstr "郵便番号"
+
+#~ msgid "Your address 1"
+#~ msgstr "メールアドレス1"
+
+#~ msgid "Your address 2"
+#~ msgstr "メールアドレス2"
+
+#~ msgid "Address"
+#~ msgstr "メールアドレス"
+
+#~ msgid "city"
+#~ msgstr "都道府県"
+
+#~ msgid "state"
+#~ msgstr "州"
+
+#~ msgid "address 1"
+#~ msgstr "メールアドレス1"
+
+#~ msgid "address 2"
+#~ msgstr "メールアドレス2"
+
+#~ msgid "Apartment, Suite, Unit"
+#~ msgstr "住所2（マンション名など）"
+
+#~ msgid "edit"
+#~ msgstr "ページ編集"
+
+#~ msgid "有料版のインスール"
+#~ msgstr "有料版のインスール"
+
+#~ msgid "Confirm"
+#~ msgstr "注文"
+
+#~ msgid "Change confirmation button text"
+#~ msgstr "確認ボタンのテキストを変更"
+
+#~ msgid "Change the back button text"
+#~ msgstr "確認ボタンの文字色変更"
+
+#~ msgid "Cart Checkout Confirm"
+#~ msgstr "Cart Checkout Confirmation"
+
+#~ msgid "'"
+#~ msgstr "'"
+
+#~ msgid "<strong>Confirm order</strong>"
+#~ msgstr "<strong>確認画面</strong>"
+
+#~ msgid ""
+#~ "Features below will be enabled when downloading the paid version.\n"
+#~ "            ・making a redirect confimation page\n"
+#~ "            「WooCommerce Checkout Confirmation」paid version can be "
+#~ "downloaded from the website below."
+#~ msgstr ""
+#~ "有料版では下記機能が実装されます。 \n"
+#~ "・リダイレクトページの作成 \n"
+#~ "下記サイトにて「WooCommerce Checkout Confirmation」の有料販売をしておりま"
+#~ "す。"
+
+#~ msgid "Support"
+#~ msgstr "サポート"
+
+#~ msgid "Need confirm before place order"
+#~ msgstr "ご注文前に必ずご確認ください"
